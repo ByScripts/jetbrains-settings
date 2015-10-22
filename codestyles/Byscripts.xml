@@ -1,5 +1,8 @@
 <code_scheme name="Byscripts">
   <option name="LINE_SEPARATOR" value="&#10;" />
+  <option name="HTML_ATTRIBUTE_WRAP" value="4" />
+  <option name="HTML_KEEP_BLANK_LINES" value="1" />
+  <option name="HTML_ALIGN_TEXT" value="true" />
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
@@ -18,6 +21,9 @@
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="JavaScript">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="true" />
+  </codeStyleSettings>
   <codeStyleSettings language="PHP">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
