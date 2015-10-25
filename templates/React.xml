@@ -25,7 +25,7 @@
   </template>
   <template name="i" value="import $VARIABLE$ from '$PACKAGE$';$END$" toReformat="false" toShortenFQNames="true">
     <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PACKAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PACKAGE" expression="decapitalize(VARIABLE)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="false" />
       <option name="JS_STATEMENT" value="true" />
