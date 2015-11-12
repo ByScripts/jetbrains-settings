@@ -1155,6 +1155,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="REST.BOLD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="REST.FIXED">
       <value>
         <option name="BACKGROUND" value="252b39" />
@@ -1170,6 +1171,7 @@
         <option name="BACKGROUND" value="252b39" />
       </value>
     </option>
+    <option name="REST.ITALIC" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="SASS_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="c2c8d7" />
