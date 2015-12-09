@@ -1,0 +1,18 @@
+<templateSet group="Twig">
+  <template name="block" value="{% block $NAME$ %}&#10;    $END$&#10;{% endblock %}&#10;" description="block" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="blocks" value="{% block stylesheets %}&#10;    {{ parent() }}&#10;    $END$&#10;{% endblock %}&#10;" description="block stylesheets" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="blockj" value="{% block javascripts %}&#10;    {{ parent() }}&#10;    $END$&#10;{% endblock %}&#10;" description="block javascripts" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

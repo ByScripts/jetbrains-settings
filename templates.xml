@@ -1,0 +1,12 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="Twig" />
+          <option name="key" value="blk" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>
