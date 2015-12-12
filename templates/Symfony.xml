@@ -1,0 +1,18 @@
+<templateSet group="Symfony">
+  <template name="act" value="/**&#10; * @Route(&quot;$routePath$&quot;, name=&quot;$routeName$&quot;)&#10; *&#10; * @return Response&#10; */&#10;public function $actionName$Action()&#10;{&#10;    $END$&#10;&#10;    return $this-&gt;render('$viewName$.html.twig');&#10;}" description="Symfony controller action" toReformat="false" toShortenFQNames="true">
+    <variable name="routePath" expression="" defaultValue="&quot;/path/to/action&quot;" alwaysStopAt="true" />
+    <variable name="routeName" expression="" defaultValue="&quot;route_name&quot;" alwaysStopAt="true" />
+    <variable name="actionName" expression="" defaultValue="&quot;my&quot;" alwaysStopAt="true" />
+    <variable name="viewName" expression="" defaultValue="actionName" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="act-" value="/**&#10; * @return \Symfony\Component\HttpFoundation\Response&#10; */&#10;public function $actionName$Action()&#10;{&#10;    $END$&#10;&#10;    return $this-&gt;render('$viewName$.html.twig');&#10;}" description="Symfony controller action without route" toReformat="false" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="&quot;my&quot;" alwaysStopAt="true" />
+    <variable name="viewName" expression="" defaultValue="actionName" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
