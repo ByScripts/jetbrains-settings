@@ -1,4 +1,5 @@
 <code_scheme name="Byscripts">
+  <option name="AUTODETECT_INDENTS" value="false" />
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="HTML_ATTRIBUTE_WRAP" value="4" />
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
