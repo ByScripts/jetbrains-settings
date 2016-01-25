@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="*.php.cache" type="PHP" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
     </extensionMap>
