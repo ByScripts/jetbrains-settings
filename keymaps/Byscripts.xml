@@ -20,6 +20,7 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="t" />
   </action>
+  <action id="IntroduceConstant" />
   <action id="LocalHistory.PutLabel">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="c" />
   </action>
@@ -37,5 +38,8 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Tool_External Tools_PHP CS Fixer">
+    <keyboard-shortcut first-keystroke="shift alt c" />
   </action>
 </keymap>
