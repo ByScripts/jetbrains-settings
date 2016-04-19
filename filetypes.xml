@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="foo" type="Native" />
       <mapping pattern="*.php.cache" type="PHP" />
       <mapping pattern="console" type="PHP" />
+      <mapping pattern="dynamic_configuration" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
     </extensionMap>
